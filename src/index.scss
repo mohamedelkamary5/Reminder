@@ -1,0 +1,74 @@
+body {
+  background: #831111;
+}
+.App {
+  width: 50%;
+  border-radius: 17px;
+  padding: 10px;
+  background: #142366;
+  margin: 27px auto;
+  box-shadow: 1px 2px 5px #000;
+  @media (max-width: 950px) {
+    width: 60%;
+  }
+  @media (max-width: 750px) {
+    width: 80%;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.App img {
+  width: 27%;
+  display: block;
+  margin: auto;
+}
+.closeIcon {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  background: #dc3545;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  width: 28px;
+  height: 2opx;
+  text-align: center;
+  /* line-height: 40px; */
+  color: #fff;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  display: block;
+}
+.reminder-title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 27px;
+  text-align: center;
+  text-decoration: underline;
+}
+input,
+button {
+  margin: 10px 0;
+}
+.list-group-item {
+  margin: 5px 0;
+  list-style: none;
+}
+.list-group-item li {
+  position: relative;
+  margin: 20px 0;
+  padding: 10px;
+  box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.1);
+}
+.list-group-item li:first-of-type {
+  padding-top: 0;
+  margin-top: 5px;
+}
+.clearReminder {
+  margin: 10px 0;
+  cursor: pointer;
+}
